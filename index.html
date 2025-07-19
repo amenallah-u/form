@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>Survey Form</title>
+</head>
+<body>
+<h1 id="title">IA Devlopment</h1>
+<p id="description">THANK YOU FOR RATING THIS FORM</p>
+<form id="urvey-form">
+  <filedset>
+<label for="name" id="name-label">
+  Name: <input required id="name" placeholder="Enter your full name " type="text">
+  </label>
+  <label for="email" id="email-label">
+ Email: <input required id="email" placeholder="Enter your email" type="email"> 
+  </label>
+  <label for="number" id="number-label">
+  Age: <input required id="number" placeholder="Enter your number " type="number" min=13 max=100>
+  </label>
+  <p>what is your job?</p>
+  <select id="dropdown">   
+    <option name="" disabled selected value> IT field</option>
+    <option id="1" value=" SoftDev"> Software Development</option>
+    <option id="2" value="AI">Artificial Intelligence (AI) </option>
+    <option id="3" value=" Cyber"> Cybersecurity</option>
+    <option name="Business" disabled selected value> Business </option>
+    <option id="4" value=" busana"> Business Analyst</option>
+    <option id="5" value="DA">Data Analyst </option>
+    <option id="6" value=" ERP"> ERP Consultant</option>
+    <option id="7" value=" AJ">Another job</option>
+    </select>
+  </filedset>
+  <hr>
+  <filedset>
+    <p>Did you like the form?</p>
+<label for="l1"><input checked value="l1" type="radio" name="choose">YES</label>
+<label for="l2"><input value="l2" type="radio" name="choose">NO</label>
+<hr>
+<p>If yes what did you like in it?</p>
+<label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Colors</label>
+<label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Styles</label>
+<label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Organisation</label>
+</filedset>
+<hr>
+<label>
+ <textarea placeholder="what do you want to add?"></textarea>
+ <button type="submit">submit</button>
+  </form>
+</body>
+</html>

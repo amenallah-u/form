@@ -1,0 +1,63 @@
+body{ 
+font-family:sans-serif;
+background:Url("https://media.istockphoto.com/id/1045681574/photo/top-view-of-a-wood-or-plywood-for-backdrop.jpg?s=612x612&w=0&k=20&c=LwpfG7C6VpndgJUkkYI0PiEBgMAgn7nVXl_Lg46-Sbs=");
+}
+h1{
+  color:white;
+  border:dotted white;
+  text-align:center;
+  width:400px;
+  margin:0 auto;
+  box-shadow:1px 1px 2px 2px black;
+}
+#description{
+  font: italic small-caps bold 16px/2 cursive;
+  color:green;
+  text-align:center;
+}
+form{
+  width:400px;
+  max-width: 500px;
+  min-width: 300px;
+  background: url("https://media.istockphoto.com/id/533459945/vector/spring-background.jpg?s=612x612&w=0&k=20&c=_xpr_1U5x8zxSw8oXliDDeVvTK_y4W0yIAlBcrw0u1k=");
+ margin:0 auto;
+ margin-bottom:100px;
+ padding:20px;
+ color:black;
+ box-shadow:0px 0px 8px 2px black;
+ 
+}
+input,select,button,textarea {
+  display:block;
+  width:370px;
+  height:25px;
+  box-shadow:0 0 2px 0.1px green;
+  margin:5px auto;
+  border-color:green;
+}
+hr{
+  height:2px;
+  margin:20px 0;
+  background-color:green;
+  border-color:green;;
+}
+filedset > p {
+  margin:5px;
+} 
+input[type="radio"],input[type="checkbox"]{
+width:15px;
+height:15px;
+display:inline;
+vertical-align: middle;
+margin: 0 0.5em 5px 0;
+}
+label{
+display:block;
+}
+textarea{
+  height:100px;
+  margin:auto;
+}
+button{
+  margin:15px auto;
+}
